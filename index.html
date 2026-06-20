@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+<head>
+<script>
+  // Controlled strictly by our C++ host injector before local rendering
+  window.DRIPZONE_EDIT_MODE = false;
+</script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excellence barbershop — barber shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Cairo', sans-serif; background-color: #08080C; }
+        .cyber-grid { background-image: linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px); background-size: 40px 40px; }
+        .glow-line { box-shadow: 0 0 15px rgba(255, 0, 85, 0.4); }
+    </style>
+</head>
+<body class="text-neutral-300 antialiased selection:bg-[#FF0055] selection:text-white cyber-grid">
+
+    <!-- Top Running Text -->
+    <div class="bg-neutral-950 border-b border-neutral-900 py-1.5 overflow-hidden whitespace-nowrap text-[10px] font-mono tracking-widest text-[#FF0055]">
+        <div class="inline-block animate-marquee uppercase">
+            // STRICTLY BY APPOINTMENT ONLY // ZERO TOLERANCE PROTOCOLS // CASABLANCA HUB v3.0 // APPOINTMENT ONLY // ZERO TOLERANCE
+        </div>
+    </div>
+
+    <!-- Premium Navigation -->
+    <header class="max-w-7xl mx-auto px-8 py-8 flex justify-between items-center sticky top-0 bg(#08080C)/90 backdrop-blur-xl z-50 border-b border-neutral-900/50">
+        <div class="flex items-center gap-3">
+            <span class="w-2 h-2 bg-[#FF0055] animate-pulse rounded-full"></span>
+            <span class="text-lg font-black tracking-tighter text-white font-mono">KAIZEN<span class="text-neutral-600">_SHARP</span></span>
+        </div>
+        <nav class="hidden md:flex items-center gap-10 text-xs font-bold tracking-widest text-neutral-400 uppercase">
+            <a href="#concept" class="hover:text-[#FF0055] transition-colors">// المفهوم الفني</a>
+            <a href="#matrix" class="hover:text-[#FF0055] transition-colors">// الهندسة والأسعار</a>
+            <a href="#terminal" class="hover:text-[#FF0055] transition-colors">// حجز الكرسي</a>
+        </nav>
+        <a href="#terminal" class="border border-[#FF0055] text-[#FF0055] text-[11px] font-black px-6 py-2.5 rounded-none hover:bg-[#FF0055] hover:text-white transition-all tracking-wider">RESERVE CHAIR</a>
+    </header>
+
+    <!-- Asymmetric Hero Grid -->
+    <section id="concept" class="max-w-7xl mx-auto px-8 py-24 lg:py-36 grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+        <div class="lg:col-span-7 space-y-8 text-right">
+            <div class="inline-flex items-center gap-2 border border-neutral-800 bg-neutral-900/40 px-3 py-1 text-[10px] font-mono text-neutral-400 uppercase tracking-widest">
+                <span>SYSTEM ORIGIN: KYOTO X CASABLANCA</span>
+            </div>
+            <h1 data-placeholder="hero_title">
+                صياغة هندسية <span class="block text-transparent bg-clip-text bg-gradient-to-r from-white via-neutral-400 to-neutral-700 mt-2">للمظهر الرجالي حاد الحواف.</span>
+            </h1>
+            <p class="text-xs md:text-sm text-neutral-400 font-light leading-relaxed max-w-xl">
+                هنا ما كاينش الزواق التجاري. كنخدمو على أدق تفاصيل ملامح الوجه والجمجمة باستعمال تقنيات القطع الحاد والشفرات اليابانية المعقمة لإنتاج مظهر يعبر عن القوة والاتزان الدقيق.
+            </p>
+            <div class="pt-4 flex flex-wrap gap-4">
+                <a href="#terminal" class="bg-white text-black font-black text-xs px-10 py-5 rounded-none hover:bg-[#FF0055] hover:text-white transition-all tracking-widest uppercase shadow-2xl">
+                    تأكيد الموعد الفوري دابا
+                </a>
+                <a href="#matrix" class="border border-neutral-800 text-neutral-400 font-bold text-xs px-8 py-5 hover:bg-neutral-900/50 transition-all">
+                    عرض مصفوفة الخدمات والتكلفة
+                </a>
+            </div>
+        </div>
+        <div class="lg:col-span-5 relative">
+            <div class="absolute -top-4 -right-4 w-24 h-24 border-t-2 border-r-2 border-[#FF0055]"></div>
+            <div class="absolute -bottom-4 -left-4 w-24 h-24 border-b-2 border-l-2 border-neutral-800"></div>
+            <div class="bg-neutral-950 p-3 border border-neutral-900">
+                <img data-editable="hero_image" src="assets/hero.jpg?v=1781984119034" class="w-full h-[500px] object-cover filter grayscale contrast-150 brightness-75">
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specifications Strip -->
+    <section class="border-y border-neutral-900 bg-neutral-950/20 py-16 px-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16 text-right">
+            <div class="space-y-3">
+                <h3 class="text-xs font-black text-white uppercase tracking-widest font-mono text-[#FF0055]">01 // ULTRASONIC SANITATION</h3>
+                <p class="text-xs text-neutral-400 leading-relaxed font-light">جميع الأدوات كتمشي لغرفة تعقيم بالأشعة والموجات الفوق صوتية بعد كل زبون مباشرة لضمان سلامة صحية مطلقة.</p>
+            </div>
+            <div class="space-y-3">
+                <h3 class="text-xs font-black text-white uppercase tracking-widest font-mono text-[#FF0055]">02 // ANATOMICAL MAPPING</h3>
+                <p class="text-xs text-neutral-400 leading-relaxed font-light">ما كانديروش نفس الحلاقة لكلشي. كندرسه زوايا الفك ونمو الشعر باش تطلع القصة متناسقة مية فالمية مع الكاريزما ديالك.</p>
+            </div>
+            <div class="space-y-3">
+                <h3 class="text-xs font-black text-white uppercase tracking-widest font-mono text-[#FF0055]">03 // TIME-SLOT LOCK</h3>
+                <p class="text-xs text-neutral-400 leading-relaxed font-light">الوقت اللي حجزتيه هو مقدّس عندنا. صالون هادئ بدون ازدحام، بدون انتظار خاوي، الكرسي كيكون واجد ليك بالدقيقة.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Service Matrix -->
+    <section id="matrix" class="max-w-7xl mx-auto px-8 py-28 space-y-20">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-end gap-6 border-b border-neutral-900 pb-8">
+            <div class="space-y-2 text-right">
+                <span class="text-[10px] font-mono text-neutral-500 uppercase tracking-widest">// MENU_ENGINE_V3</span>
+                <h2 class="text-3xl md:text-5xl font-black text-white tracking-tighter">باقات العناية والهندسة المتاحة</h2>
+            </div>
+            <p class="text-xs text-neutral-500 font-mono">ALL PRICES ARE FIXED AND TRANSPARENT</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Item 1 -->
+            <div class="bg-neutral-950/40 border border-neutral-900 p-8 flex flex-col justify-between h-[380px] hover:border-neutral-700 transition-all group">
+                <div class="space-y-4">
+                    <div class="flex justify-between items-baseline">
+                        <span class="text-neutral-600 font-mono text-xs">01/</span>
+                        <span class="text-xl font-black font-mono text-white">140 DH</span>
+                    </div>
+                    <h3 class="text-lg font-black text-white group-hover:text-[#FF0055] transition-colors text-right">The Cyber Razor Fade</h3>
+                    <p class="text-xs text-neutral-400 leading-relaxed font-light text-right">تدرج شعر فائق النعومة والدقة باستعمال ماكينات احترافية وتحديد يدوي حاد جدا للخطوط الجانبية، مع غسيل وتبريد فروة الرأس بمستحضرات يابانية منعشة.</p>
+                </div>
+                <a href="#terminal" class="border-t border-neutral-900 pt-4 text-center text-[11px] font-mono tracking-widest text-neutral-400 uppercase hover:text-white transition-colors">// SELECT_TIER</a>
+            </div>
+
+            <!-- Item 2 (Featured) -->
+            <div class="bg-neutral-950 border-2 border-[#FF0055] p-8 flex flex-col justify-between h-[380px] relative group glow-line">
+                <div class="absolute -top-3 right-6 bg-[#FF0055] text-white text-[9px] font-mono font-black px-3 py-0.5 tracking-widest uppercase">MOST REQUESTED SETUP</div>
+                <div class="space-y-4">
+                    <div class="flex justify-between items-baseline">
+                        <span class="text-neutral-500 font-mono text-xs">02/</span>
+                        <span class="text-2xl font-black font-mono text-[#FF0055]">260 DH</span>
+                    </div>
+                    <h3 class="text-lg font-black text-white text-right">Kaizen Total Identity Package</h3>
+                    <p class="text-xs text-neutral-300 leading-relaxed font-light text-right">الهوية الكاملة. قصة شعر تدرج ليزر متناسقة مع ملامح الوجه، تحديد اللحية ونحت زواياها باستعمال بروتوكول الفوطة الساخنة والموس، تليها جلسة قناع الفحم الطبي لتنظيف المسام.</p>
+                </div>
+                <a href="#terminal" class="border-t border-neutral-900 pt-4 text-center text-[11px] font-mono tracking-widest text-[#FF0055] uppercase font-bold">// BOOK_ULTIMATE_SYSTEM</a>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="bg-neutral-950/40 border border-neutral-900 p-8 flex flex-col justify-between h-[380px] hover:border-neutral-700 transition-all group">
+                <div class="space-y-4">
+                    <div class="flex justify-between items-baseline">
+                        <span class="text-neutral-600 font-mono text-xs">03/</span>
+                        <span class="text-xl font-black font-mono text-white">120 DH</span>
+                    </div>
+                    <h3 class="text-lg font-black text-white group-hover:text-[#FF0055] transition-colors text-right">Beard Architecture System</h3>
+                    <p class="text-xs text-neutral-400 leading-relaxed font-light text-right">العناية المتكاملة باللحية ونحتها. فتح مسام الجلد بالفوطة البخارية الساخنة، تحديد الزوايا بموس حاد أحادي الاستعمال، وترطيب مكثف بزيوت أركان طبيعية مغذية.</p>
+                </div>
+                <a href="#terminal" class="border-t border-neutral-900 pt-4 text-center text-[11px] font-mono tracking-widest text-neutral-400 uppercase hover:text-white transition-colors">// SELECT_TIER</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clean Dynamic Booking Engine -->
+    <section id="terminal" class="max-w-7xl mx-auto px-8 py-24 border-t border-neutral-900">
+        <div 
+            class="max-w-2xl mx-auto bg-neutral-950 border border-neutral-900 p-8 md:p-12 rounded-none space-y-8 relative"
+            x-data="{
+                clientName: '',
+                selectedService: '',
+                bookingDay: '',
+                bookingTime: '',
+                whatsappNumber: '{PHONE_RAW}',
+                executeKaizenBooking() {
+                    if(!this.clientName || !this.selectedService || !this.bookingDay || !this.bookingTime) {
+                        alert('المرجو ملء جميع الحقول لتوليد بيانات الحجز بنجاح!');
+                        return;
+                    }
+                    let finalMessage = `🪒 طلب حجز موعد دقيق من مختبر KAIZEN SHARP:\n\n👤 اسم العميل: ${this.clientName}\n⚔️ فئة الخدمة: ${this.selectedService}\n📅 تاريخ الحضور: ${this.bookingDay}\n🕒 ساعة الحجز: ${this.bookingTime}\n\nالمرجو تأكيد توفر الكرسي فوراً فالتوقيت المحدد!`;
+                    window.open(`https://wa.me/${this.whatsappNumber}?text=${encodeURIComponent(finalMessage)}`, '_blank');
+                }
+            }"
+        >
+            <div class="text-center space-y-2">
+                <span class="text-[10px] font-mono text-[#FF0055] tracking-widest uppercase">// SECURE WA TERMINAL //</span>
+                <h3 class="text-2xl md:text-3xl font-black text-white tracking-tighter">جدولة حجز الكرسي الفوري</h3>
+                <p class="text-xs text-neutral-400 font-light max-w-sm mx-auto">سيقوم النظام بإعداد رسالة مشفرة ومباشرة لإرسالها لمسؤول الصالون عبر الواتساب لتأكيد مكانك بدون انتظار.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 text-right">
+                <div class="space-y-2">
+                    <label class="text-[11px] font-mono text-neutral-500 block">ACCOUNT_NAME:</label>
+                    <input type="text" x-model="clientName" placeholder="مثال: أمين الناصري" class="w-full bg-neutral-900/50 border border-neutral-800 rounded-none px-4 py-4 text-xs text-white focus:outline-none focus:border-[#FF0055] transition-colors text-right">
+                </div>
+                <div class="space-y-2">
+                    <label class="text-[11px] font-mono text-neutral-500 block">SERVICE_CODE:</label>
+                    <select x-model="selectedService" class="w-full bg-neutral-900/50 border border-neutral-800 rounded-none px-4 py-4 text-xs text-neutral-400 focus:outline-none focus:border-[#FF0055] transition-colors">
+                        <option value="">-- اختر الباقة الفنية --</option>
+                        <option value="The Cyber Razor Fade">The Cyber Razor Fade (140 DH)</option>
+                        <option value="Kaizen Total Identity Package">Kaizen Total Identity Package (260 DH)</option>
+                        <option value="Beard Architecture System">Beard Architecture System (120 DH)</option>
+                    </select>
+                </div>
+                <div class="space-y-2">
+                    <label class="text-[11px] font-mono text-neutral-500 block">TARGET_DATE:</label>
+                    <input type="date" x-model="bookingDay" class="w-full bg-neutral-900/50 border border-neutral-800 rounded-none px-4 py-4 text-xs text-white focus:outline-none focus:border-[#FF0055] transition-colors text-right">
+                </div>
+                <div class="space-y-2">
+                    <label class="text-[11px] font-mono text-neutral-500 block">SLOT_TIME:</label>
+                    <select x-model="bookingTime" class="w-full bg-neutral-900/50 border border-neutral-800 rounded-none px-4 py-4 text-xs text-neutral-400 focus:outline-none focus:border-[#FF0055] transition-colors">
+                        <option value="">-- اختر ساعة الحضور --</option>
+                        <option value="10:00 AM">10:00 AM</option>
+                        <option value="11:30 AM">11:30 AM</option>
+                        <option value="02:00 PM">02:00 PM</option>
+                        <option value="04:30 PM">04:30 PM</option>
+                        <option value="07:00 PM">07:00 PM</option>
+                        <option value="09:00 PM">09:00 PM</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="pt-4">
+                <button @click="executeKaizenBooking()" class="w-full bg-[#FF0055] text-white font-mono font-black py-4 text-xs tracking-widest uppercase hover:opacity-90 transition-all shadow-xl shadow-[#FF0055]/10">
+                    EXECUTE BOOKING VIA WHATSAPP ⚡
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Structural Geometry Map Section -->
+    <section class="w-full h-[400px] relative border-t border-neutral-900 bg-neutral-950">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.84643034947!2d-7.6325514!3d33.5833215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDM1JzAwLjAiTiA3wrAzNzk1Ny4yIlc!5e0!3m2!1sfr!2sma!4v1710000000000!5m2!1sfr!2sma" 
+            class="w-full h-full border-0 grayscale invert opacity-10 hover:opacity-30 transition-opacity" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+        <div class="absolute bottom-8 right-8 bg-neutral-950 border border-neutral-800 p-6 max-w-sm text-right">
+            <h4 class="text-[11px] font-mono font-black text-[#FF0055] mb-2 uppercase">// LAB_LOCATION_COORDINATES:</h4>
+            <p class="text-xs text-neutral-400 leading-relaxed font-light">{ADDRESS_FULL}</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-12 text-[10px] text-neutral-600 font-mono tracking-widest bg-black border-t border-neutral-900">
+        KAIZEN_SHARP LAB SYSTEM // CASABLANCA CREATIVE DISTRICT // DESIGNED IN 2026 // ALL RIGHTS RESERVED
+    </footer>
+
+<script>(function(){
+  if (window.DRIPZONE_EDIT_MODE === true) return;
+  if (window.__dzProductionLockReady) return;
+  window.__dzProductionLockReady = true;
+
+  document.documentElement.classList.add('dz-production-mode');
+  document.body.classList.remove('dz-inline-edit-mode');
+
+  document.querySelectorAll('[contenteditable]').forEach(function(el){
+    el.removeAttribute('contenteditable');
+    el.removeAttribute('spellcheck');
+    el.classList.remove('dz-inline-editing');
+  });
+  document.querySelectorAll('[data-dz-inline-bound]').forEach(function(el){
+    el.removeAttribute('data-dz-inline-bound');
+  });
+
+  var css = document.createElement('style');
+  css.id = 'dz-production-lock';
+  css.textContent = [
+    'html.dz-production-mode,html.dz-production-mode body{overflow-x:hidden;scroll-behavior:smooth}',
+    'html.dz-production-mode [data-editable-token],html.dz-production-mode [data-placeholder]{',
+    '  outline:none!important;box-shadow:none!important;cursor:inherit;background:transparent!important}',
+    'html.dz-production-mode .dz-inline-editing{outline:none!important;background:transparent!important}',
+    'html.dz-production-mode [data-editable-token]:empty{display:none}',
+    'html.dz-production-mode a[href]{pointer-events:auto}'
+  ].join('');
+  if (!document.getElementById('dz-production-lock')) {
+    document.head.appendChild(css);
+  }
+})();</script></body>
+</html>
